@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>课室使用率</title>
+    <script src="http://apps.bdimg.com/libs/jquery/1.11.1/jquery.min.js" type="text/javascript"></script>
+    <script src="http://7xry71.com1.z0.glb.clouddn.com/esl.js" type="text/javascript"></script>
+    <script src="http://echarts.baidu.com/dist/echarts.simple.min.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="dict">Ajax 加载字典</div>
+<p id="dict_result"></p>
+<script type="text/javascript" language="javascript">
+    $(document).ready(function(){
+        $('#dict').click(function(){
+          $.getJSON("{% url 'dict' %}",function(ret){
+              //返回值 ret 在这里是一个字典
+              $('#dict_result').append(ret.twz + '<br>');
+              // 也可以用 ret['twz']
+          })
+      })
+    });
+</script>
+</body>
+</html>
