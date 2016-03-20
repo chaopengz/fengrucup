@@ -97,22 +97,13 @@ def queryall(request):
         sql = "select * from t_20160220 where location = '" + loc[0] + "'" + ";"
         cursor.execute(sql)
         lines = cursor.fetchall()
-        list = []
         all_total = 0
         per_total = 0
         for line in lines:
             per_total += line[3]
             all_total += line[4]
-            percent = float(line[3]) / line[4];
-            percent = round(percent, 2)
-            d = dict(location=line[0], room=str(line[1]), macnum=str(line[2]), idnum=str(line[3]), maxnum=str(line[4]),
-                     time=str(line[5]), percent=str(percent))
-            list.append(d)
-        # print per_total, all_total
         usage = float(per_total) / all_total
         usage = round(usage, 4)
-        # print usage
-        u_dict = dict(density=usage)
-        list.append(u_dict)
-        ret.append(list)
+        u_dict = dict(density=usage, location=loc[0])
+        ret.append(u_dict)
     return HttpResponse(json.dumps(ret, ensure_ascii=False, indent=2))
