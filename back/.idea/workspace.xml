@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="bbf744df-90fa-409b-97a5-406f1af49528" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/views.py" afterPath="$PROJECT_DIR$/api/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back/urls.py" afterPath="$PROJECT_DIR$/back/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/error.log" afterPath="$PROJECT_DIR$/error.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/location.html" afterPath="$PROJECT_DIR$/templates/location.html" />
     </list>
     <ignored path="back.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,8 +50,18 @@
       <file leaf-file-name="location.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/location.html">
           <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.705882">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/tests.py">
+          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -56,17 +70,22 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.2129909">
-              <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.48157895">
+              <caret line="132" column="24" selection-start-line="132" selection-start-column="24" selection-end-line="132" selection-end-column="24" />
               <folding>
-                <element signature="e#651#1254#0" expanded="false" />
-                <element signature="e#1480#1864#0" expanded="false" />
-                <element signature="e#1891#2715#0" expanded="false" />
-                <marker date="1458475639844" expanded="true" signature="864:950" placeholder="select * fro... t_20160220" />
-                <marker date="1458475639844" expanded="true" signature="1526:1609" placeholder="select * fro... course_information_crawler" />
-                <marker date="1458475639844" expanded="true" signature="1937:1997" placeholder="select * fro... t_20160220" />
-                <marker date="1458475639844" expanded="true" signature="2752:2792" placeholder="select disti... t_20160220" />
-                <marker date="1458475639844" expanded="true" signature="2896:2954" placeholder="select * fro... t_20160220" />
+                <element signature="e#247#631#0" expanded="false" />
+                <element signature="e#658#694#0" expanded="false" />
+                <element signature="e#724#763#0" expanded="false" />
+                <element signature="e#795#1378#0" expanded="false" />
+                <element signature="e#2829#3431#0" expanded="false" />
+                <marker date="1458891316406" expanded="true" signature="1008:1094" placeholder="select * fro... t_20160220" />
+                <marker date="1458891316406" expanded="true" signature="1650:1733" placeholder="select * fro... course_information_crawler" />
+                <marker date="1458891316406" expanded="true" signature="2041:2101" placeholder="select * fro... t_20160220" />
+                <marker date="1458891316406" expanded="true" signature="2836:2876" placeholder="select disti... t_20160220" />
+                <marker date="1458891316406" expanded="true" signature="2962:3020" placeholder="select * fro... t_20160220" />
+                <marker date="1458891316406" expanded="true" signature="3494:3727" placeholder="select disti... librarybook" />
+                <marker date="1458891316406" expanded="true" signature="3574:3726" placeholder="select booki... libraryrecommend" />
+                <marker date="1458891316406" expanded="true" signature="3646:3716" placeholder="SELECT id FR... libraryuser" />
               </folding>
             </state>
           </provider>
@@ -86,7 +105,7 @@
         <entry file="file://$PROJECT_DIR$/back/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+              <caret line="27" column="20" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -113,6 +132,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Chaopeng Zhang（张潮鹏） &lt;chaopengz@users.noreply.github.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
@@ -123,8 +147,8 @@
         <option value="$PROJECT_DIR$/api/wechat_lock.py" />
         <option value="$PROJECT_DIR$/back/wsgi.py" />
         <option value="$PROJECT_DIR$/templates/yibu.html" />
-        <option value="$PROJECT_DIR$/templates/location.html" />
         <option value="$PROJECT_DIR$/back/settings.py" />
+        <option value="$PROJECT_DIR$/templates/location.html" />
         <option value="$PROJECT_DIR$/back/urls.py" />
         <option value="$PROJECT_DIR$/api/views.py" />
       </list>
@@ -166,8 +190,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -230,6 +252,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -566,7 +590,13 @@
       <option name="project" value="LOCAL" />
       <updated>1458475746098</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="simplify query all response">
+      <created>1458476145343</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1458476145343</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -585,14 +615,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30460384" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3169165" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945284" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23748545" sideWeight="0.51284796" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22376874" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19208382" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07799767" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26254377" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -663,14 +693,19 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#651#1254#0" expanded="false" />
-            <element signature="e#1480#1864#0" expanded="false" />
-            <element signature="e#1891#2715#0" expanded="false" />
-            <marker date="1458475639844" expanded="true" signature="864:950" placeholder="select * fro... t_20160220" />
-            <marker date="1458475639844" expanded="true" signature="1526:1609" placeholder="select * fro... course_information_crawler" />
-            <marker date="1458475639844" expanded="true" signature="1937:1997" placeholder="select * fro... t_20160220" />
-            <marker date="1458475639844" expanded="true" signature="2752:2792" placeholder="select disti... t_20160220" />
-            <marker date="1458475639844" expanded="true" signature="2896:2954" placeholder="select * fro... t_20160220" />
+            <element signature="e#247#631#0" expanded="false" />
+            <element signature="e#658#694#0" expanded="false" />
+            <element signature="e#724#763#0" expanded="false" />
+            <element signature="e#795#1378#0" expanded="false" />
+            <element signature="e#2829#3431#0" expanded="false" />
+            <marker date="1458891316406" expanded="true" signature="1008:1094" placeholder="select * fro... t_20160220" />
+            <marker date="1458891316406" expanded="true" signature="1650:1733" placeholder="select * fro... course_information_crawler" />
+            <marker date="1458891316406" expanded="true" signature="2041:2101" placeholder="select * fro... t_20160220" />
+            <marker date="1458891316406" expanded="true" signature="2836:2876" placeholder="select disti... t_20160220" />
+            <marker date="1458891316406" expanded="true" signature="2962:3020" placeholder="select * fro... t_20160220" />
+            <marker date="1458891316406" expanded="true" signature="3494:3727" placeholder="select disti... librarybook" />
+            <marker date="1458891316406" expanded="true" signature="3574:3726" placeholder="select booki... libraryrecommend" />
+            <marker date="1458891316406" expanded="true" signature="3646:3716" placeholder="SELECT id FR... libraryuser" />
           </folding>
         </state>
       </provider>
@@ -708,14 +743,19 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#651#1254#0" expanded="false" />
-            <element signature="e#1480#1864#0" expanded="false" />
-            <element signature="e#1891#2715#0" expanded="false" />
-            <marker date="1458475639844" expanded="true" signature="864:950" placeholder="select * fro... t_20160220" />
-            <marker date="1458475639844" expanded="true" signature="1526:1609" placeholder="select * fro... course_information_crawler" />
-            <marker date="1458475639844" expanded="true" signature="1937:1997" placeholder="select * fro... t_20160220" />
-            <marker date="1458475639844" expanded="true" signature="2752:2792" placeholder="select disti... t_20160220" />
-            <marker date="1458475639844" expanded="true" signature="2896:2954" placeholder="select * fro... t_20160220" />
+            <element signature="e#247#631#0" expanded="false" />
+            <element signature="e#658#694#0" expanded="false" />
+            <element signature="e#724#763#0" expanded="false" />
+            <element signature="e#795#1378#0" expanded="false" />
+            <element signature="e#2829#3431#0" expanded="false" />
+            <marker date="1458891316406" expanded="true" signature="1008:1094" placeholder="select * fro... t_20160220" />
+            <marker date="1458891316406" expanded="true" signature="1650:1733" placeholder="select * fro... course_information_crawler" />
+            <marker date="1458891316406" expanded="true" signature="2041:2101" placeholder="select * fro... t_20160220" />
+            <marker date="1458891316406" expanded="true" signature="2836:2876" placeholder="select disti... t_20160220" />
+            <marker date="1458891316406" expanded="true" signature="2962:3020" placeholder="select * fro... t_20160220" />
+            <marker date="1458891316406" expanded="true" signature="3494:3727" placeholder="select disti... librarybook" />
+            <marker date="1458891316406" expanded="true" signature="3574:3726" placeholder="select booki... libraryrecommend" />
+            <marker date="1458891316406" expanded="true" signature="3646:3716" placeholder="SELECT id FR... libraryuser" />
           </folding>
         </state>
       </provider>
@@ -753,14 +793,19 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#651#1254#0" expanded="false" />
-            <element signature="e#1480#1864#0" expanded="false" />
-            <element signature="e#1891#2715#0" expanded="false" />
-            <marker date="1458475639844" expanded="true" signature="864:950" placeholder="select * fro... t_20160220" />
-            <marker date="1458475639844" expanded="true" signature="1526:1609" placeholder="select * fro... course_information_crawler" />
-            <marker date="1458475639844" expanded="true" signature="1937:1997" placeholder="select * fro... t_20160220" />
-            <marker date="1458475639844" expanded="true" signature="2752:2792" placeholder="select disti... t_20160220" />
-            <marker date="1458475639844" expanded="true" signature="2896:2954" placeholder="select * fro... t_20160220" />
+            <element signature="e#247#631#0" expanded="false" />
+            <element signature="e#658#694#0" expanded="false" />
+            <element signature="e#724#763#0" expanded="false" />
+            <element signature="e#795#1378#0" expanded="false" />
+            <element signature="e#2829#3431#0" expanded="false" />
+            <marker date="1458891316406" expanded="true" signature="1008:1094" placeholder="select * fro... t_20160220" />
+            <marker date="1458891316406" expanded="true" signature="1650:1733" placeholder="select * fro... course_information_crawler" />
+            <marker date="1458891316406" expanded="true" signature="2041:2101" placeholder="select * fro... t_20160220" />
+            <marker date="1458891316406" expanded="true" signature="2836:2876" placeholder="select disti... t_20160220" />
+            <marker date="1458891316406" expanded="true" signature="2962:3020" placeholder="select * fro... t_20160220" />
+            <marker date="1458891316406" expanded="true" signature="3494:3727" placeholder="select disti... librarybook" />
+            <marker date="1458891316406" expanded="true" signature="3574:3726" placeholder="select booki... libraryrecommend" />
+            <marker date="1458891316406" expanded="true" signature="3646:3716" placeholder="SELECT id FR... libraryuser" />
           </folding>
         </state>
       </provider>
@@ -798,14 +843,19 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#651#1254#0" expanded="false" />
-            <element signature="e#1480#1864#0" expanded="false" />
-            <element signature="e#1891#2715#0" expanded="false" />
-            <marker date="1458475639844" expanded="true" signature="864:950" placeholder="select * fro... t_20160220" />
-            <marker date="1458475639844" expanded="true" signature="1526:1609" placeholder="select * fro... course_information_crawler" />
-            <marker date="1458475639844" expanded="true" signature="1937:1997" placeholder="select * fro... t_20160220" />
-            <marker date="1458475639844" expanded="true" signature="2752:2792" placeholder="select disti... t_20160220" />
-            <marker date="1458475639844" expanded="true" signature="2896:2954" placeholder="select * fro... t_20160220" />
+            <element signature="e#247#631#0" expanded="false" />
+            <element signature="e#658#694#0" expanded="false" />
+            <element signature="e#724#763#0" expanded="false" />
+            <element signature="e#795#1378#0" expanded="false" />
+            <element signature="e#2829#3431#0" expanded="false" />
+            <marker date="1458891316406" expanded="true" signature="1008:1094" placeholder="select * fro... t_20160220" />
+            <marker date="1458891316406" expanded="true" signature="1650:1733" placeholder="select * fro... course_information_crawler" />
+            <marker date="1458891316406" expanded="true" signature="2041:2101" placeholder="select * fro... t_20160220" />
+            <marker date="1458891316406" expanded="true" signature="2836:2876" placeholder="select disti... t_20160220" />
+            <marker date="1458891316406" expanded="true" signature="2962:3020" placeholder="select * fro... t_20160220" />
+            <marker date="1458891316406" expanded="true" signature="3494:3727" placeholder="select disti... librarybook" />
+            <marker date="1458891316406" expanded="true" signature="3574:3726" placeholder="select booki... libraryrecommend" />
+            <marker date="1458891316406" expanded="true" signature="3646:3716" placeholder="SELECT id FR... libraryuser" />
           </folding>
         </state>
       </provider>
@@ -843,14 +893,19 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#651#1254#0" expanded="false" />
-            <element signature="e#1480#1864#0" expanded="false" />
-            <element signature="e#1891#2715#0" expanded="false" />
-            <marker date="1458475639844" expanded="true" signature="864:950" placeholder="select * fro... t_20160220" />
-            <marker date="1458475639844" expanded="true" signature="1526:1609" placeholder="select * fro... course_information_crawler" />
-            <marker date="1458475639844" expanded="true" signature="1937:1997" placeholder="select * fro... t_20160220" />
-            <marker date="1458475639844" expanded="true" signature="2752:2792" placeholder="select disti... t_20160220" />
-            <marker date="1458475639844" expanded="true" signature="2896:2954" placeholder="select * fro... t_20160220" />
+            <element signature="e#247#631#0" expanded="false" />
+            <element signature="e#658#694#0" expanded="false" />
+            <element signature="e#724#763#0" expanded="false" />
+            <element signature="e#795#1378#0" expanded="false" />
+            <element signature="e#2829#3431#0" expanded="false" />
+            <marker date="1458891316406" expanded="true" signature="1008:1094" placeholder="select * fro... t_20160220" />
+            <marker date="1458891316406" expanded="true" signature="1650:1733" placeholder="select * fro... course_information_crawler" />
+            <marker date="1458891316406" expanded="true" signature="2041:2101" placeholder="select * fro... t_20160220" />
+            <marker date="1458891316406" expanded="true" signature="2836:2876" placeholder="select disti... t_20160220" />
+            <marker date="1458891316406" expanded="true" signature="2962:3020" placeholder="select * fro... t_20160220" />
+            <marker date="1458891316406" expanded="true" signature="3494:3727" placeholder="select disti... librarybook" />
+            <marker date="1458891316406" expanded="true" signature="3574:3726" placeholder="select booki... libraryrecommend" />
+            <marker date="1458891316406" expanded="true" signature="3646:3716" placeholder="SELECT id FR... libraryuser" />
           </folding>
         </state>
       </provider>
@@ -888,14 +943,19 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
-            <element signature="e#651#1254#0" expanded="false" />
-            <element signature="e#1480#1864#0" expanded="false" />
-            <element signature="e#1891#2715#0" expanded="false" />
-            <marker date="1458475639844" expanded="true" signature="864:950" placeholder="select * fro... t_20160220" />
-            <marker date="1458475639844" expanded="true" signature="1526:1609" placeholder="select * fro... course_information_crawler" />
-            <marker date="1458475639844" expanded="true" signature="1937:1997" placeholder="select * fro... t_20160220" />
-            <marker date="1458475639844" expanded="true" signature="2752:2792" placeholder="select disti... t_20160220" />
-            <marker date="1458475639844" expanded="true" signature="2896:2954" placeholder="select * fro... t_20160220" />
+            <element signature="e#247#631#0" expanded="false" />
+            <element signature="e#658#694#0" expanded="false" />
+            <element signature="e#724#763#0" expanded="false" />
+            <element signature="e#795#1378#0" expanded="false" />
+            <element signature="e#2829#3431#0" expanded="false" />
+            <marker date="1458891316406" expanded="true" signature="1008:1094" placeholder="select * fro... t_20160220" />
+            <marker date="1458891316406" expanded="true" signature="1650:1733" placeholder="select * fro... course_information_crawler" />
+            <marker date="1458891316406" expanded="true" signature="2041:2101" placeholder="select * fro... t_20160220" />
+            <marker date="1458891316406" expanded="true" signature="2836:2876" placeholder="select disti... t_20160220" />
+            <marker date="1458891316406" expanded="true" signature="2962:3020" placeholder="select * fro... t_20160220" />
+            <marker date="1458891316406" expanded="true" signature="3494:3727" placeholder="select disti... librarybook" />
+            <marker date="1458891316406" expanded="true" signature="3574:3726" placeholder="select booki... libraryrecommend" />
+            <marker date="1458891316406" expanded="true" signature="3646:3716" placeholder="SELECT id FR... libraryuser" />
           </folding>
         </state>
       </provider>
@@ -933,14 +993,19 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
-            <element signature="e#651#1254#0" expanded="false" />
-            <element signature="e#1480#1864#0" expanded="false" />
-            <element signature="e#1891#2715#0" expanded="false" />
-            <marker date="1458475639844" expanded="true" signature="864:950" placeholder="select * fro... t_20160220" />
-            <marker date="1458475639844" expanded="true" signature="1526:1609" placeholder="select * fro... course_information_crawler" />
-            <marker date="1458475639844" expanded="true" signature="1937:1997" placeholder="select * fro... t_20160220" />
-            <marker date="1458475639844" expanded="true" signature="2752:2792" placeholder="select disti... t_20160220" />
-            <marker date="1458475639844" expanded="true" signature="2896:2954" placeholder="select * fro... t_20160220" />
+            <element signature="e#247#631#0" expanded="false" />
+            <element signature="e#658#694#0" expanded="false" />
+            <element signature="e#724#763#0" expanded="false" />
+            <element signature="e#795#1378#0" expanded="false" />
+            <element signature="e#2829#3431#0" expanded="false" />
+            <marker date="1458891316406" expanded="true" signature="1008:1094" placeholder="select * fro... t_20160220" />
+            <marker date="1458891316406" expanded="true" signature="1650:1733" placeholder="select * fro... course_information_crawler" />
+            <marker date="1458891316406" expanded="true" signature="2041:2101" placeholder="select * fro... t_20160220" />
+            <marker date="1458891316406" expanded="true" signature="2836:2876" placeholder="select disti... t_20160220" />
+            <marker date="1458891316406" expanded="true" signature="2962:3020" placeholder="select * fro... t_20160220" />
+            <marker date="1458891316406" expanded="true" signature="3494:3727" placeholder="select disti... librarybook" />
+            <marker date="1458891316406" expanded="true" signature="3574:3726" placeholder="select booki... libraryrecommend" />
+            <marker date="1458891316406" expanded="true" signature="3646:3716" placeholder="SELECT id FR... libraryuser" />
           </folding>
         </state>
       </provider>
@@ -1015,13 +1080,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/yibu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1032,8 +1090,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/location.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.705882">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1049,24 +1115,29 @@
     <entry file="file://$PROJECT_DIR$/back/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2129909">
-          <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.48157895">
+          <caret line="132" column="24" selection-start-line="132" selection-start-column="24" selection-end-line="132" selection-end-column="24" />
           <folding>
-            <element signature="e#651#1254#0" expanded="false" />
-            <element signature="e#1480#1864#0" expanded="false" />
-            <element signature="e#1891#2715#0" expanded="false" />
-            <marker date="1458475639844" expanded="true" signature="864:950" placeholder="select * fro... t_20160220" />
-            <marker date="1458475639844" expanded="true" signature="1526:1609" placeholder="select * fro... course_information_crawler" />
-            <marker date="1458475639844" expanded="true" signature="1937:1997" placeholder="select * fro... t_20160220" />
-            <marker date="1458475639844" expanded="true" signature="2752:2792" placeholder="select disti... t_20160220" />
-            <marker date="1458475639844" expanded="true" signature="2896:2954" placeholder="select * fro... t_20160220" />
+            <element signature="e#247#631#0" expanded="false" />
+            <element signature="e#658#694#0" expanded="false" />
+            <element signature="e#724#763#0" expanded="false" />
+            <element signature="e#795#1378#0" expanded="false" />
+            <element signature="e#2829#3431#0" expanded="false" />
+            <marker date="1458891316406" expanded="true" signature="1008:1094" placeholder="select * fro... t_20160220" />
+            <marker date="1458891316406" expanded="true" signature="1650:1733" placeholder="select * fro... course_information_crawler" />
+            <marker date="1458891316406" expanded="true" signature="2041:2101" placeholder="select * fro... t_20160220" />
+            <marker date="1458891316406" expanded="true" signature="2836:2876" placeholder="select disti... t_20160220" />
+            <marker date="1458891316406" expanded="true" signature="2962:3020" placeholder="select * fro... t_20160220" />
+            <marker date="1458891316406" expanded="true" signature="3494:3727" placeholder="select disti... librarybook" />
+            <marker date="1458891316406" expanded="true" signature="3574:3726" placeholder="select booki... libraryrecommend" />
+            <marker date="1458891316406" expanded="true" signature="3646:3716" placeholder="SELECT id FR... libraryuser" />
           </folding>
         </state>
       </provider>

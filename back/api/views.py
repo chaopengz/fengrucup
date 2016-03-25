@@ -6,12 +6,21 @@ import MySQLdb
 import json
 from django.http import JsonResponse
 
-#
-db = MySQLdb.connect("buaa.czioyaateeku.ap-northeast-1.rds.amazonaws.com", "chaopengz", "a7641368", "xzbh",
-                     charset="utf8")
-# db = MySQLdb.connect("localhost", "root", "a7641368", "xzbh",
-#                      charset="utf8")
-cursor = db.cursor()
+
+def HandleSql(sql, ret):
+    db = MySQLdb.connect("buaa.czioyaateeku.ap-northeast-1.rds.amazonaws.com", "chaopengz", "a7641368", "xzbh",
+                         charset="utf8")
+    cursor = db.cursor()
+    try:
+        cursor.execute(sql)
+        db.commit()
+        if ret == 'yes':
+            lines = cursor.fetchall()
+            return lines
+    except:
+        db.rollback()
+    finally:
+        db.close()
 
 
 def index(request):
@@ -31,8 +40,7 @@ def getWebData(request):
     t = loc + " - " + floor + "层"
     # t = "test"
     sql = r"select * from t_20160220 where location = '" + loc + "' and room like '" + floor + "%' "
-    cursor.execute(sql)
-    lines = cursor.fetchall()
+    lines = HandleSql(sql, 'yes')
     for line in lines:
         percent = line[2] * 100 / line[4]
         y.append(percent)
@@ -53,8 +61,7 @@ def feedback(request):
 def getcourseinfo(request):
     location = request.GET['location']
     sql = "select * from course_information_crawler where class_room like  '" + location + "%'" + ";"
-    cursor.execute(sql)
-    lines = cursor.fetchall()
+    lines = HandleSql(sql, 'yes')
     list = []
     for line in lines:
         d = dict(room=line[1], date=line[2], course=line[3])
@@ -66,8 +73,7 @@ def getcourseinfo(request):
 def query(request):
     location = request.GET['location']
     sql = "select * from t_20160220 where location = '" + location + "'" + ";"
-    cursor.execute(sql)
-    lines = cursor.fetchall()
+    lines = HandleSql(sql, 'yes')
     list = []
     all_total = 0
     per_total = 0
@@ -90,13 +96,13 @@ def query(request):
 
 def queryall(request):
     sql = "select distinct location from t_20160220"
-    cursor.execute(sql)
-    locs = cursor.fetchall()
+
+    locs = HandleSql(sql, 'yes')
+
     ret = []
     for loc in locs:
         sql = "select * from t_20160220 where location = '" + loc[0] + "'" + ";"
-        cursor.execute(sql)
-        lines = cursor.fetchall()
+        lines = HandleSql(sql, 'yes')
         all_total = 0
         per_total = 0
         for line in lines:
@@ -107,3 +113,32 @@ def queryall(request):
         u_dict = dict(density=usage, location=loc[0])
         ret.append(u_dict)
     return HttpResponse(json.dumps(ret, ensure_ascii=False, indent=2))
+
+
+def getRecommend(username, password):
+    sql = '''
+        select distinct * from xzbh.librarybook
+        where id in
+        (
+          select bookid from xzbh.libraryrecommend
+	      where userid =
+		      (SELECT id FROM xzbh.libraryuser where username = '%s'and passwd = '%s'
+        ));
+        ''' % (username, password)
+    list = []
+    lines = HandleSql(sql, 'yes')
+    for line in lines:
+        code = line[1]
+        name = line[2]
+        author = line[3]
+        d = dict(code=code, name=name, author=author)
+        list.append(d)
+    return list
+
+
+def recommend(request):
+    print request.method
+    username = request.POST['username']
+    password = request.POST['password']
+    list = getRecommend(username, password)
+    return HttpResponse(json.dumps(list, ensure_ascii=False, indent=2))

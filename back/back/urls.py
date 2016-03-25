@@ -24,5 +24,6 @@ urlpatterns = [
     url(r'^location/$', 'api.views.location'),
     url(r'^getcourseinfo/$', 'api.views.getcourseinfo'),
     url(r'^getwebdata/$', 'api.views.getWebData'),
-    url(r'queryall/','api.views.queryall')
+    url(r'^queryall/$', 'api.views.queryall'),
+    url(r'^recommend/$', 'api.views.recommend')
 ]
