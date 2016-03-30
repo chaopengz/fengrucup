@@ -127,12 +127,30 @@ def getRecommend(username, password):
         ''' % (username, password)
     list = []
     lines = HandleSql(sql, 'yes')
-    for line in lines:
-        code = line[1]
-        name = line[2]
-        author = line[3]
-        d = dict(code=code, name=name, author=author)
-        list.append(d)
+    length = len(lines)
+    if length == 0:
+        sql = '''
+            select name,author,code, count(*) as count
+            from xzbh.librarybook
+            group by name
+            order by count desc
+              limit 5
+            '''
+        items = HandleSql(sql, "yes")
+        for item in items:
+            code = item[2]
+            name = item[0]
+            author = item[1]
+            d = dict(code=code, name=name, author=author)
+            list.append(d)
+    else:
+        for line in lines:
+            code = line[1]
+            name = line[2]
+            author = line[3]
+            d = dict(code=code, name=name, author=author)
+            list.append(d)
+    # list.append(length)
     return list
 
 
@@ -140,5 +158,6 @@ def recommend(request):
     print request.method
     username = request.POST['username']
     password = request.POST['password']
+    realname = request.POST['name']
     list = getRecommend(username, password)
     return HttpResponse(json.dumps(list, ensure_ascii=False, indent=2))
