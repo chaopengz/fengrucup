@@ -1,0 +1,1622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0564be38-2827-4f5d-9a7e-c247474ee2b5" name="Default" comment="" />
+    <ignored path="aliwechat.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/aliwechat$views.coverage" NAME="views Coverage Results" MODIFIED="1462670184651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wechat" />
+    <SUITE FILE_PATH="coverage/aliwechat$test.coverage" NAME="test Coverage Results" MODIFIED="1458543886968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wechat" />
+    <SUITE FILE_PATH="coverage/aliwechat$projectoxord.coverage" NAME="projectoxord Coverage Results" MODIFIED="1462669718481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wechat" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="aliwechat" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wechat/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.54545456">
+              <caret line="57" column="36" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
+              <folding>
+                <element signature="e#24#63#0" expanded="true" />
+                <element signature="e#532#869#0" expanded="false" />
+                <element signature="e#1332#1367#0" expanded="false" />
+                <element signature="e#4977#5762#0" expanded="false" />
+                <element signature="e#5789#6388#0" expanded="false" />
+                <marker date="1463046906117" expanded="true" signature="2575:2669" placeholder="update user " />
+                <marker date="1463046906117" expanded="true" signature="2582:2629" placeholder="select id FR... user" />
+                <marker date="1463046906117" expanded="true" signature="2582:2655" placeholder="select id FR... user" />
+                <marker date="1463046906117" expanded="true" signature="2582:2669" placeholder="select id FR... user" />
+                <marker date="1463046906117" expanded="true" signature="3140:3187" placeholder="SELECT * FRO... vistors" />
+                <marker date="1463046906117" expanded="true" signature="3376:3404" placeholder="update visto... " />
+                <marker date="1463046906117" expanded="true" signature="3376:3417" placeholder="update visto... " />
+                <marker date="1463046906117" expanded="true" signature="3376:3428" placeholder="update visto... " />
+                <marker date="1463046906117" expanded="true" signature="3376:3440" placeholder="update visto... " />
+                <marker date="1463046906117" expanded="true" signature="5174:5211" placeholder="select fakei... user" />
+                <marker date="1463046906117" expanded="true" signature="5174:5219" placeholder="select fakei... user" />
+                <marker date="1463046906117" expanded="true" signature="5174:5235" placeholder="select fakei... user" />
+                <marker date="1463046906117" expanded="true" signature="5174:5236" placeholder="select fakei... user" />
+                <marker date="1463046906117" expanded="true" signature="5174:5237" placeholder="select fakei... user" />
+                <marker date="1463046906117" expanded="true" signature="5534:5574" placeholder="insert into vistors... " />
+                <marker date="1463046906117" expanded="true" signature="5534:5581" placeholder="insert into vistors... " />
+                <marker date="1463046906117" expanded="true" signature="5534:5584" placeholder="insert into vistors... " />
+                <marker date="1463046906117" expanded="true" signature="5534:5600" placeholder="insert into vistors... " />
+                <marker date="1463046906117" expanded="true" signature="5534:5617" placeholder="insert into vistors... " />
+                <marker date="1463046906117" expanded="true" signature="5534:5631" placeholder="insert into vistors... " />
+                <marker date="1463046906117" expanded="true" signature="5534:5659" placeholder="insert into vistors... " />
+                <marker date="1463046906117" expanded="true" signature="5982:6018" placeholder="select cpass... USER" />
+                <marker date="1463046906117" expanded="true" signature="5982:6027" placeholder="select cpass... USER" />
+                <marker date="1463046906117" expanded="true" signature="5982:6029" placeholder="select cpass... USER" />
+                <marker date="1463046906117" expanded="true" signature="5982:6030" placeholder="select cpass... USER" />
+                <marker date="1463046906117" expanded="true" signature="6218:6282" placeholder="update user " />
+                <marker date="1463046906117" expanded="true" signature="6427:6473" placeholder="SELECT * FRO... vistors" />
+                <marker date="1463046906117" expanded="true" signature="6427:6474" placeholder="SELECT * FRO... vistors" />
+                <marker date="1463046906117" expanded="true" signature="7613:7660" placeholder="SELECT * FRO... vistors" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="projectoxord.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wechat/projectoxord.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="196" column="6" selection-start-line="196" selection-start-column="6" selection-end-line="196" selection-end-column="6" />
+              <folding>
+                <element signature="e#119#825#0" expanded="false" />
+                <element signature="e#852#1607#0" expanded="false" />
+                <element signature="e#1636#2539#0" expanded="false" />
+                <element signature="e#2575#3210#0" expanded="false" />
+                <element signature="e#3251#3996#0" expanded="false" />
+                <element signature="e#4020#4141#0" expanded="false" />
+                <element signature="e#4161#4690#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wechat.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wechat/wechat.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="85" column="46" selection-start-line="85" selection-start-column="46" selection-end-line="85" selection-end-column="46" />
+              <folding>
+                <element signature="e#38#49#0" expanded="true" />
+                <element signature="e#611#615#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aliwechat/wsgi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aliwechat/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="40" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/aliwechat/wsgi.py" />
+        <option value="$PROJECT_DIR$/aliwechat/settings.py" />
+        <option value="$PROJECT_DIR$/wechat/wechat.py" />
+        <option value="$PROJECT_DIR$/wechat/test.py" />
+        <option value="$PROJECT_DIR$/aliwechat/urls.py" />
+        <option value="$PROJECT_DIR$/../button.py" />
+        <option value="$PROJECT_DIR$/wechat/projectoxord.py" />
+        <option value="$PROJECT_DIR$/wechat/views.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="width" value="1932" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aliwechat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aliwechat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aliwechat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aliwechat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aliwechat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wechat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aliwechat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aliwechat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aliwechat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../button.py" />
+    <property name="js-jscs-nodeInterpreter" value="C:\code\Language\Nodejs\node.exe" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\code\Projects\python\aliwechat\wechat" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.views">
+    <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/wechat" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="aliwechat" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wechat/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="projectoxord" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/wechat" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="aliwechat" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wechat/projectoxord.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/wechat" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="aliwechat" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wechat/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="aliwechat" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="aliwechat" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="aliwechat" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="aliwechat" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="aliwechat" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="aliwechat" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="aliwechat" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="aliwechat" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="aliwechat" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="aliwechat" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="aliwechat" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="aliwechat.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="aliwechat" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Django server.aliwechat" />
+      <item index="1" class="java.lang.String" itemvalue="Python.test" />
+      <item index="2" class="java.lang.String" itemvalue="Python.projectoxord" />
+      <item index="3" class="java.lang.String" itemvalue="Python.views" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.views" />
+        <item index="1" class="java.lang.String" itemvalue="Python.projectoxord" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0564be38-2827-4f5d-9a7e-c247474ee2b5" name="Default" comment="" />
+      <created>1457873279892</created>
+      <option name="number" value="Default" />
+      <updated>1457873279892</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="0" width="1932" height="1048" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19548872" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29521587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/aliwechat/wsgi.py</url>
+          <line>9</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/wechat/wechat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding>
+            <element signature="e#38#49#0" expanded="true" />
+            <element signature="e#611#615#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aliwechat/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aliwechat/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechat/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+            <element signature="e#532#869#0" expanded="false" />
+            <element signature="e#1332#1367#0" expanded="false" />
+            <element signature="e#4977#5762#0" expanded="false" />
+            <element signature="e#5789#6388#0" expanded="false" />
+            <marker date="1463046906117" expanded="true" signature="2575:2669" placeholder="update user " />
+            <marker date="1463046906117" expanded="true" signature="2582:2629" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="2582:2655" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="2582:2669" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="3140:3187" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="3376:3404" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3417" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3428" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3440" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="5174:5211" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5219" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5235" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5236" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5237" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5534:5574" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5581" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5584" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5600" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5617" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5631" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5659" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5982:6018" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6027" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6029" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6030" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="6218:6282" placeholder="update user " />
+            <marker date="1463046906117" expanded="true" signature="6427:6473" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="6427:6474" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="7613:7660" placeholder="SELECT * FRO... vistors" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechat/projectoxord.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="163" column="0" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
+          <folding>
+            <element signature="e#119#825#0" expanded="false" />
+            <element signature="e#852#1607#0" expanded="false" />
+            <element signature="e#1636#2539#0" expanded="false" />
+            <element signature="e#2575#3210#0" expanded="false" />
+            <element signature="e#3251#3996#0" expanded="false" />
+            <element signature="e#4020#4141#0" expanded="false" />
+            <element signature="e#4161#4690#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechat/wechat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding>
+            <element signature="e#38#49#0" expanded="true" />
+            <element signature="e#611#615#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aliwechat/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aliwechat/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechat/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+            <element signature="e#532#869#0" expanded="false" />
+            <element signature="e#1332#1367#0" expanded="false" />
+            <element signature="e#4977#5762#0" expanded="false" />
+            <element signature="e#5789#6388#0" expanded="false" />
+            <marker date="1463046906117" expanded="true" signature="2575:2669" placeholder="update user " />
+            <marker date="1463046906117" expanded="true" signature="2582:2629" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="2582:2655" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="2582:2669" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="3140:3187" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="3376:3404" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3417" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3428" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3440" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="5174:5211" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5219" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5235" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5236" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5237" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5534:5574" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5581" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5584" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5600" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5617" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5631" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5659" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5982:6018" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6027" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6029" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6030" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="6218:6282" placeholder="update user " />
+            <marker date="1463046906117" expanded="true" signature="6427:6473" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="6427:6474" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="7613:7660" placeholder="SELECT * FRO... vistors" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechat/wechat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#38#49#0" expanded="true" />
+            <element signature="e#611#615#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aliwechat/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aliwechat/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechat/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+            <element signature="e#532#869#0" expanded="false" />
+            <element signature="e#1332#1367#0" expanded="false" />
+            <element signature="e#4977#5762#0" expanded="false" />
+            <element signature="e#5789#6388#0" expanded="false" />
+            <marker date="1463046906117" expanded="true" signature="2575:2669" placeholder="update user " />
+            <marker date="1463046906117" expanded="true" signature="2582:2629" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="2582:2655" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="2582:2669" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="3140:3187" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="3376:3404" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3417" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3428" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3440" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="5174:5211" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5219" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5235" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5236" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5237" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5534:5574" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5581" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5584" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5600" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5617" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5631" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5659" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5982:6018" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6027" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6029" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6030" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="6218:6282" placeholder="update user " />
+            <marker date="1463046906117" expanded="true" signature="6427:6473" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="6427:6474" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="7613:7660" placeholder="SELECT * FRO... vistors" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechat/wechat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#38#49#0" expanded="true" />
+            <element signature="e#611#615#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aliwechat/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aliwechat/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechat/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+            <element signature="e#532#869#0" expanded="false" />
+            <element signature="e#1332#1367#0" expanded="false" />
+            <element signature="e#4977#5762#0" expanded="false" />
+            <element signature="e#5789#6388#0" expanded="false" />
+            <marker date="1463046906117" expanded="true" signature="2575:2669" placeholder="update user " />
+            <marker date="1463046906117" expanded="true" signature="2582:2629" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="2582:2655" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="2582:2669" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="3140:3187" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="3376:3404" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3417" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3428" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3440" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="5174:5211" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5219" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5235" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5236" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5237" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5534:5574" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5581" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5584" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5600" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5617" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5631" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5659" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5982:6018" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6027" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6029" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6030" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="6218:6282" placeholder="update user " />
+            <marker date="1463046906117" expanded="true" signature="6427:6473" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="6427:6474" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="7613:7660" placeholder="SELECT * FRO... vistors" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechat/wechat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#38#49#0" expanded="true" />
+            <element signature="e#611#615#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aliwechat/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aliwechat/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechat/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+            <element signature="e#532#869#0" expanded="false" />
+            <element signature="e#1332#1367#0" expanded="false" />
+            <element signature="e#4977#5762#0" expanded="false" />
+            <element signature="e#5789#6388#0" expanded="false" />
+            <marker date="1463046906117" expanded="true" signature="2575:2669" placeholder="update user " />
+            <marker date="1463046906117" expanded="true" signature="2582:2629" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="2582:2655" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="2582:2669" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="3140:3187" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="3376:3404" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3417" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3428" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3440" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="5174:5211" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5219" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5235" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5236" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5237" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5534:5574" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5581" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5584" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5600" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5617" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5631" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5659" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5982:6018" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6027" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6029" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6030" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="6218:6282" placeholder="update user " />
+            <marker date="1463046906117" expanded="true" signature="6427:6473" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="6427:6474" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="7613:7660" placeholder="SELECT * FRO... vistors" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechat/wechat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#38#49#0" expanded="true" />
+            <element signature="e#611#615#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aliwechat/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aliwechat/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechat/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+            <element signature="e#532#869#0" expanded="false" />
+            <element signature="e#1332#1367#0" expanded="false" />
+            <element signature="e#4977#5762#0" expanded="false" />
+            <element signature="e#5789#6388#0" expanded="false" />
+            <marker date="1463046906117" expanded="true" signature="2575:2669" placeholder="update user " />
+            <marker date="1463046906117" expanded="true" signature="2582:2629" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="2582:2655" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="2582:2669" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="3140:3187" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="3376:3404" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3417" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3428" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3440" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="5174:5211" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5219" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5235" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5236" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5237" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5534:5574" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5581" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5584" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5600" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5617" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5631" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5659" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5982:6018" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6027" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6029" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6030" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="6218:6282" placeholder="update user " />
+            <marker date="1463046906117" expanded="true" signature="6427:6473" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="6427:6474" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="7613:7660" placeholder="SELECT * FRO... vistors" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aliwechat/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aliwechat/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechat/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+            <element signature="e#532#869#0" expanded="false" />
+            <element signature="e#1332#1367#0" expanded="false" />
+            <element signature="e#4977#5762#0" expanded="false" />
+            <element signature="e#5789#6388#0" expanded="false" />
+            <marker date="1463046906117" expanded="true" signature="2575:2669" placeholder="update user " />
+            <marker date="1463046906117" expanded="true" signature="2582:2629" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="2582:2655" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="2582:2669" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="3140:3187" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="3376:3404" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3417" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3428" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3440" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="5174:5211" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5219" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5235" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5236" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5237" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5534:5574" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5581" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5584" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5600" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5617" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5631" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5659" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5982:6018" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6027" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6029" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6030" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="6218:6282" placeholder="update user " />
+            <marker date="1463046906117" expanded="true" signature="6427:6473" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="6427:6474" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="7613:7660" placeholder="SELECT * FRO... vistors" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aliwechat/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aliwechat/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechat/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+            <element signature="e#532#869#0" expanded="false" />
+            <element signature="e#1332#1367#0" expanded="false" />
+            <element signature="e#4977#5762#0" expanded="false" />
+            <element signature="e#5789#6388#0" expanded="false" />
+            <marker date="1463046906117" expanded="true" signature="2575:2669" placeholder="update user " />
+            <marker date="1463046906117" expanded="true" signature="2582:2629" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="2582:2655" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="2582:2669" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="3140:3187" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="3376:3404" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3417" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3428" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3440" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="5174:5211" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5219" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5235" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5236" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5237" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5534:5574" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5581" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5584" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5600" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5617" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5631" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5659" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5982:6018" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6027" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6029" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6030" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="6218:6282" placeholder="update user " />
+            <marker date="1463046906117" expanded="true" signature="6427:6473" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="6427:6474" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="7613:7660" placeholder="SELECT * FRO... vistors" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aliwechat/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aliwechat/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechat/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+            <element signature="e#532#869#0" expanded="false" />
+            <element signature="e#1332#1367#0" expanded="false" />
+            <element signature="e#4977#5762#0" expanded="false" />
+            <element signature="e#5789#6388#0" expanded="false" />
+            <marker date="1463046906117" expanded="true" signature="2575:2669" placeholder="update user " />
+            <marker date="1463046906117" expanded="true" signature="2582:2629" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="2582:2655" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="2582:2669" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="3140:3187" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="3376:3404" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3417" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3428" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3440" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="5174:5211" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5219" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5235" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5236" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5237" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5534:5574" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5581" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5584" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5600" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5617" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5631" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5659" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5982:6018" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6027" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6029" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6030" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="6218:6282" placeholder="update user " />
+            <marker date="1463046906117" expanded="true" signature="6427:6473" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="6427:6474" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="7613:7660" placeholder="SELECT * FRO... vistors" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechat/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+            <element signature="e#532#869#0" expanded="false" />
+            <element signature="e#1332#1367#0" expanded="false" />
+            <element signature="e#4977#5762#0" expanded="false" />
+            <element signature="e#5789#6388#0" expanded="false" />
+            <marker date="1463046906117" expanded="true" signature="2575:2669" placeholder="update user " />
+            <marker date="1463046906117" expanded="true" signature="2582:2629" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="2582:2655" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="2582:2669" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="3140:3187" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="3376:3404" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3417" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3428" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3440" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="5174:5211" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5219" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5235" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5236" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5237" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5534:5574" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5581" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5584" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5600" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5617" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5631" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5659" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5982:6018" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6027" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6029" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6030" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="6218:6282" placeholder="update user " />
+            <marker date="1463046906117" expanded="true" signature="6427:6473" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="6427:6474" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="7613:7660" placeholder="SELECT * FRO... vistors" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechat/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+            <element signature="e#532#869#0" expanded="false" />
+            <element signature="e#1332#1367#0" expanded="false" />
+            <element signature="e#4977#5762#0" expanded="false" />
+            <element signature="e#5789#6388#0" expanded="false" />
+            <marker date="1463046906117" expanded="true" signature="2575:2669" placeholder="update user " />
+            <marker date="1463046906117" expanded="true" signature="2582:2629" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="2582:2655" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="2582:2669" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="3140:3187" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="3376:3404" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3417" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3428" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3440" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="5174:5211" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5219" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5235" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5236" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5237" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5534:5574" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5581" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5584" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5600" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5617" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5631" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5659" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5982:6018" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6027" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6029" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6030" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="6218:6282" placeholder="update user " />
+            <marker date="1463046906117" expanded="true" signature="6427:6473" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="6427:6474" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="7613:7660" placeholder="SELECT * FRO... vistors" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechat/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+            <element signature="e#532#869#0" expanded="false" />
+            <element signature="e#1332#1367#0" expanded="false" />
+            <element signature="e#4977#5762#0" expanded="false" />
+            <element signature="e#5789#6388#0" expanded="false" />
+            <marker date="1463046906117" expanded="true" signature="2575:2669" placeholder="update user " />
+            <marker date="1463046906117" expanded="true" signature="2582:2629" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="2582:2655" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="2582:2669" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="3140:3187" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="3376:3404" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3417" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3428" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3440" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="5174:5211" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5219" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5235" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5236" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5237" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5534:5574" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5581" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5584" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5600" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5617" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5631" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5659" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5982:6018" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6027" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6029" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6030" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="6218:6282" placeholder="update user " />
+            <marker date="1463046906117" expanded="true" signature="6427:6473" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="6427:6474" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="7613:7660" placeholder="SELECT * FRO... vistors" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechat/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+            <element signature="e#532#869#0" expanded="false" />
+            <element signature="e#1332#1367#0" expanded="false" />
+            <element signature="e#4977#5762#0" expanded="false" />
+            <element signature="e#5789#6388#0" expanded="false" />
+            <marker date="1463046906117" expanded="true" signature="2575:2669" placeholder="update user " />
+            <marker date="1463046906117" expanded="true" signature="2582:2629" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="2582:2655" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="2582:2669" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="3140:3187" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="3376:3404" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3417" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3428" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3440" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="5174:5211" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5219" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5235" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5236" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5237" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5534:5574" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5581" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5584" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5600" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5617" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5631" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5659" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5982:6018" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6027" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6029" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6030" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="6218:6282" placeholder="update user " />
+            <marker date="1463046906117" expanded="true" signature="6427:6473" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="6427:6474" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="7613:7660" placeholder="SELECT * FRO... vistors" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechat/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+            <element signature="e#532#869#0" expanded="false" />
+            <element signature="e#1332#1367#0" expanded="false" />
+            <element signature="e#4977#5762#0" expanded="false" />
+            <element signature="e#5789#6388#0" expanded="false" />
+            <marker date="1463046906117" expanded="true" signature="2575:2669" placeholder="update user " />
+            <marker date="1463046906117" expanded="true" signature="2582:2629" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="2582:2655" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="2582:2669" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="3140:3187" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="3376:3404" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3417" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3428" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3440" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="5174:5211" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5219" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5235" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5236" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5237" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5534:5574" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5581" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5584" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5600" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5617" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5631" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5659" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5982:6018" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6027" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6029" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6030" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="6218:6282" placeholder="update user " />
+            <marker date="1463046906117" expanded="true" signature="6427:6473" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="6427:6474" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="7613:7660" placeholder="SELECT * FRO... vistors" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechat/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+            <element signature="e#532#869#0" expanded="false" />
+            <element signature="e#1332#1367#0" expanded="false" />
+            <element signature="e#4977#5762#0" expanded="false" />
+            <element signature="e#5789#6388#0" expanded="false" />
+            <marker date="1463046906117" expanded="true" signature="2575:2669" placeholder="update user " />
+            <marker date="1463046906117" expanded="true" signature="2582:2629" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="2582:2655" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="2582:2669" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="3140:3187" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="3376:3404" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3417" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3428" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3440" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="5174:5211" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5219" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5235" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5236" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5237" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5534:5574" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5581" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5584" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5600" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5617" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5631" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5659" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5982:6018" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6027" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6029" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6030" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="6218:6282" placeholder="update user " />
+            <marker date="1463046906117" expanded="true" signature="6427:6473" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="6427:6474" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="7613:7660" placeholder="SELECT * FRO... vistors" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Language/python/Lib/site-packages/wechat_sdk/basic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="178" column="26" selection-start-line="178" selection-start-column="26" selection-end-line="178" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Language/python/Lib/site-packages/wechat_sdk/messages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.878788">
+          <caret line="122" column="17" selection-start-line="122" selection-start-column="17" selection-end-line="122" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aliwechat/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechat/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechat/access.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../button.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechat/projectoxord.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="196" column="6" selection-start-line="196" selection-start-column="6" selection-end-line="196" selection-end-column="6" />
+          <folding>
+            <element signature="e#119#825#0" expanded="false" />
+            <element signature="e#852#1607#0" expanded="false" />
+            <element signature="e#1636#2539#0" expanded="false" />
+            <element signature="e#2575#3210#0" expanded="false" />
+            <element signature="e#3251#3996#0" expanded="false" />
+            <element signature="e#4020#4141#0" expanded="false" />
+            <element signature="e#4161#4690#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechat/wechat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="85" column="46" selection-start-line="85" selection-start-column="46" selection-end-line="85" selection-end-column="46" />
+          <folding>
+            <element signature="e#38#49#0" expanded="true" />
+            <element signature="e#611#615#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aliwechat/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aliwechat/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechat/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54545456">
+          <caret line="57" column="36" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+            <element signature="e#532#869#0" expanded="false" />
+            <element signature="e#1332#1367#0" expanded="false" />
+            <element signature="e#4977#5762#0" expanded="false" />
+            <element signature="e#5789#6388#0" expanded="false" />
+            <marker date="1463046906117" expanded="true" signature="2575:2669" placeholder="update user " />
+            <marker date="1463046906117" expanded="true" signature="2582:2629" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="2582:2655" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="2582:2669" placeholder="select id FR... user" />
+            <marker date="1463046906117" expanded="true" signature="3140:3187" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="3376:3404" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3417" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3428" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="3376:3440" placeholder="update visto... " />
+            <marker date="1463046906117" expanded="true" signature="5174:5211" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5219" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5235" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5236" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5174:5237" placeholder="select fakei... user" />
+            <marker date="1463046906117" expanded="true" signature="5534:5574" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5581" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5584" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5600" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5617" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5631" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5534:5659" placeholder="insert into vistors... " />
+            <marker date="1463046906117" expanded="true" signature="5982:6018" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6027" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6029" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="5982:6030" placeholder="select cpass... USER" />
+            <marker date="1463046906117" expanded="true" signature="6218:6282" placeholder="update user " />
+            <marker date="1463046906117" expanded="true" signature="6427:6473" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="6427:6474" placeholder="SELECT * FRO... vistors" />
+            <marker date="1463046906117" expanded="true" signature="7613:7660" placeholder="SELECT * FRO... vistors" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

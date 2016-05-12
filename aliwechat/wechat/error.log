@@ -1,0 +1,136 @@
+[Sun May 08 06:25:02.652393 2016] [mpm_prefork:notice] [pid 20808] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.16 mod_wsgi/3.4 Python/2.7.6 configured -- resuming normal operations
+[Sun May 08 06:25:02.652437 2016] [core:notice] [pid 20808] AH00094: Command line: '/usr/sbin/apache2'
+[Sun May 08 06:25:03.789405 2016] [:error] [pid 3780] [client 176.9.131.69:36157] script '/var/www/html/category.php' not found or unable to stat
+[Sun May 08 06:25:05.671184 2016] [:error] [pid 3781] [client 176.9.131.69:37245] script '/var/www/html/category.php' not found or unable to stat
+[Sun May 08 06:25:07.617562 2016] [:error] [pid 3779] [client 176.9.131.69:38658] script '/var/www/html/category.php' not found or unable to stat
+[Sun May 08 06:25:09.516947 2016] [:error] [pid 3778] [client 176.9.131.69:39883] script '/var/www/html/category.php' not found or unable to stat
+[Sun May 08 06:25:11.568764 2016] [:error] [pid 3777] [client 176.9.131.69:41165] script '/var/www/html/category.php' not found or unable to stat
+[Sun May 08 06:25:13.507953 2016] [:error] [pid 3780] [client 176.9.131.69:42449] script '/var/www/html/category.php' not found or unable to stat
+[Sun May 08 06:25:15.846003 2016] [:error] [pid 3781] [client 176.9.131.69:43830] script '/var/www/html/category.php' not found or unable to stat
+[Sun May 08 06:25:17.743699 2016] [:error] [pid 3782] [client 176.9.131.69:45037] script '/var/www/html/category.php' not found or unable to stat
+[Sun May 08 06:25:19.678208 2016] [:error] [pid 3779] [client 176.9.131.69:46237] script '/var/www/html/category.php' not found or unable to stat
+[Sun May 08 06:25:21.652290 2016] [:error] [pid 3778] [client 176.9.131.69:47835] script '/var/www/html/category.php' not found or unable to stat
+[Sun May 08 06:25:23.506264 2016] [:error] [pid 3777] [client 176.9.131.69:49305] script '/var/www/html/category.php' not found or unable to stat
+[Sun May 08 06:25:25.491208 2016] [:error] [pid 3780] [client 176.9.131.69:51040] script '/var/www/html/category.php' not found or unable to stat
+[Sun May 08 06:25:27.573303 2016] [:error] [pid 3781] [client 176.9.131.69:52958] script '/var/www/html/category.php' not found or unable to stat
+[Sun May 08 06:25:29.566610 2016] [:error] [pid 3782] [client 176.9.131.69:54650] script '/var/www/html/category.php' not found or unable to stat
+[Sun May 08 06:25:31.462212 2016] [:error] [pid 3779] [client 176.9.131.69:55832] script '/var/www/html/category.php' not found or unable to stat
+[Sun May 08 06:30:01.370827 2016] [:error] [pid 3777] [client 220.181.108.161:24843] script '/var/www/html/goods.php' not found or unable to stat
+[Sun May 08 06:51:17.949058 2016] [:error] [pid 3780] [client 123.125.71.113:26575] script '/var/www/html/goods.php' not found or unable to stat
+[Sun May 08 07:12:34.525098 2016] [:error] [pid 3778] [client 220.181.108.141:23101] script '/var/www/html/goods.php' not found or unable to stat
+[Sun May 08 07:55:07.588535 2016] [:error] [pid 3778] [client 123.125.71.116:37368] script '/var/www/html/goods.php' not found or unable to stat
+[Sun May 08 08:37:40.550264 2016] [:error] [pid 3780] [client 123.125.71.12:45416] script '/var/www/html/category.php' not found or unable to stat
+[Sun May 08 00:52:56.460901 2016] [:error] [pid 3779] /home/aliwechat/aliwechat/urls.py:21: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got wechat.views.wechat_handle). Pass the callable instead.
+[Sun May 08 00:52:56.460951 2016] [:error] [pid 3779]   url(r'^wechat/$', 'wechat.views.wechat_handle'),
+[Sun May 08 00:52:56.460955 2016] [:error] [pid 3779] 
+[Sun May 08 00:52:56.461059 2016] [:error] [pid 3779] /home/aliwechat/aliwechat/urls.py:22: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got wechat.views.index). Pass the callable instead.
+[Sun May 08 00:52:56.461067 2016] [:error] [pid 3779]   url(r'^$', 'wechat.views.index'),
+[Sun May 08 00:52:56.461071 2016] [:error] [pid 3779] 
+[Sun May 08 00:52:56.461155 2016] [:error] [pid 3779] /home/aliwechat/aliwechat/urls.py:23: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got wechat.views.towechat). Pass the callable instead.
+[Sun May 08 00:52:56.461172 2016] [:error] [pid 3779]   url(r'^towechat/$', 'wechat.views.towechat'),
+[Sun May 08 00:52:56.461175 2016] [:error] [pid 3779] 
+[Sun May 08 00:52:56.461257 2016] [:error] [pid 3779] /home/aliwechat/aliwechat/urls.py:24: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got wechat.views.login). Pass the callable instead.
+[Sun May 08 00:52:56.461265 2016] [:error] [pid 3779]   url(r'^login/', 'wechat.views.login'),
+[Sun May 08 00:52:56.461268 2016] [:error] [pid 3779] 
+[Sun May 08 00:52:56.461346 2016] [:error] [pid 3779] /home/aliwechat/aliwechat/urls.py:25: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got wechat.views.getHistory). Pass the callable instead.
+[Sun May 08 00:52:56.461353 2016] [:error] [pid 3779]   url(r'^history/', 'wechat.views.getHistory'),
+[Sun May 08 00:52:56.461356 2016] [:error] [pid 3779] 
+[Sun May 08 00:52:56.461433 2016] [:error] [pid 3779] /home/aliwechat/aliwechat/urls.py:26: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got wechat.views.create). Pass the callable instead.
+[Sun May 08 00:52:56.461440 2016] [:error] [pid 3779]   url(r'^create/', 'wechat.views.create')
+[Sun May 08 00:52:56.461443 2016] [:error] [pid 3779] 
+[Sun May 08 00:52:56.560672 2016] [:error] [pid 3779] can not import colorizing_stream_handler, using logging.StreamHandler()
+[Sun May 08 00:53:26.408306 2016] [:error] [pid 3778] /home/aliwechat/aliwechat/urls.py:21: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got wechat.views.wechat_handle). Pass the callable instead.
+[Sun May 08 00:53:26.408397 2016] [:error] [pid 3778]   url(r'^wechat/$', 'wechat.views.wechat_handle'),
+[Sun May 08 00:53:26.408403 2016] [:error] [pid 3778] 
+[Sun May 08 00:53:26.408505 2016] [:error] [pid 3778] /home/aliwechat/aliwechat/urls.py:22: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got wechat.views.index). Pass the callable instead.
+[Sun May 08 00:53:26.408514 2016] [:error] [pid 3778]   url(r'^$', 'wechat.views.index'),
+[Sun May 08 00:53:26.408517 2016] [:error] [pid 3778] 
+[Sun May 08 00:53:26.408602 2016] [:error] [pid 3778] /home/aliwechat/aliwechat/urls.py:23: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got wechat.views.towechat). Pass the callable instead.
+[Sun May 08 00:53:26.408613 2016] [:error] [pid 3778]   url(r'^towechat/$', 'wechat.views.towechat'),
+[Sun May 08 00:53:26.408618 2016] [:error] [pid 3778] 
+[Sun May 08 00:53:26.408733 2016] [:error] [pid 3778] /home/aliwechat/aliwechat/urls.py:24: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got wechat.views.login). Pass the callable instead.
+[Sun May 08 00:53:26.408742 2016] [:error] [pid 3778]   url(r'^login/', 'wechat.views.login'),
+[Sun May 08 00:53:26.408745 2016] [:error] [pid 3778] 
+[Sun May 08 00:53:26.408831 2016] [:error] [pid 3778] /home/aliwechat/aliwechat/urls.py:25: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got wechat.views.getHistory). Pass the callable instead.
+[Sun May 08 00:53:26.408839 2016] [:error] [pid 3778]   url(r'^history/', 'wechat.views.getHistory'),
+[Sun May 08 00:53:26.408842 2016] [:error] [pid 3778] 
+[Sun May 08 00:53:26.408919 2016] [:error] [pid 3778] /home/aliwechat/aliwechat/urls.py:26: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got wechat.views.create). Pass the callable instead.
+[Sun May 08 00:53:26.408940 2016] [:error] [pid 3778]   url(r'^create/', 'wechat.views.create')
+[Sun May 08 00:53:26.408943 2016] [:error] [pid 3778] 
+[Sun May 08 00:53:26.445483 2016] [:error] [pid 3778] can not import colorizing_stream_handler, using logging.StreamHandler()
+[Sun May 08 00:53:27.035905 2016] [:error] [pid 3777] /home/aliwechat/aliwechat/urls.py:21: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got wechat.views.wechat_handle). Pass the callable instead.
+[Sun May 08 00:53:27.035945 2016] [:error] [pid 3777]   url(r'^wechat/$', 'wechat.views.wechat_handle'),
+[Sun May 08 00:53:27.035949 2016] [:error] [pid 3777] 
+[Sun May 08 00:53:27.036054 2016] [:error] [pid 3777] /home/aliwechat/aliwechat/urls.py:22: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got wechat.views.index). Pass the callable instead.
+[Sun May 08 00:53:27.036064 2016] [:error] [pid 3777]   url(r'^$', 'wechat.views.index'),
+[Sun May 08 00:53:27.036068 2016] [:error] [pid 3777] 
+[Sun May 08 00:53:27.036155 2016] [:error] [pid 3777] /home/aliwechat/aliwechat/urls.py:23: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got wechat.views.towechat). Pass the callable instead.
+[Sun May 08 00:53:27.036163 2016] [:error] [pid 3777]   url(r'^towechat/$', 'wechat.views.towechat'),
+[Sun May 08 00:53:27.036166 2016] [:error] [pid 3777] 
+[Sun May 08 00:53:27.036246 2016] [:error] [pid 3777] /home/aliwechat/aliwechat/urls.py:24: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got wechat.views.login). Pass the callable instead.
+[Sun May 08 00:53:27.036254 2016] [:error] [pid 3777]   url(r'^login/', 'wechat.views.login'),
+[Sun May 08 00:53:27.036257 2016] [:error] [pid 3777] 
+[Sun May 08 00:53:27.036388 2016] [:error] [pid 3777] /home/aliwechat/aliwechat/urls.py:25: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got wechat.views.getHistory). Pass the callable instead.
+[Sun May 08 00:53:27.036398 2016] [:error] [pid 3777]   url(r'^history/', 'wechat.views.getHistory'),
+[Sun May 08 00:53:27.036401 2016] [:error] [pid 3777] 
+[Sun May 08 00:53:27.036484 2016] [:error] [pid 3777] /home/aliwechat/aliwechat/urls.py:26: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got wechat.views.create). Pass the callable instead.
+[Sun May 08 00:53:27.036492 2016] [:error] [pid 3777]   url(r'^create/', 'wechat.views.create')
+[Sun May 08 00:53:27.036495 2016] [:error] [pid 3777] 
+[Sun May 08 00:53:27.073349 2016] [:error] [pid 3777] can not import colorizing_stream_handler, using logging.StreamHandler()
+[Sun May 08 00:57:26.209158 2016] [:error] [pid 3780] /home/aliwechat/aliwechat/urls.py:21: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got wechat.views.wechat_handle). Pass the callable instead.
+[Sun May 08 00:57:26.209205 2016] [:error] [pid 3780]   url(r'^wechat/$', 'wechat.views.wechat_handle'),
+[Sun May 08 00:57:26.209209 2016] [:error] [pid 3780] 
+[Sun May 08 00:57:26.209306 2016] [:error] [pid 3780] /home/aliwechat/aliwechat/urls.py:22: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got wechat.views.index). Pass the callable instead.
+[Sun May 08 00:57:26.209315 2016] [:error] [pid 3780]   url(r'^$', 'wechat.views.index'),
+[Sun May 08 00:57:26.209318 2016] [:error] [pid 3780] 
+[Sun May 08 00:57:26.209401 2016] [:error] [pid 3780] /home/aliwechat/aliwechat/urls.py:23: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got wechat.views.towechat). Pass the callable instead.
+[Sun May 08 00:57:26.209409 2016] [:error] [pid 3780]   url(r'^towechat/$', 'wechat.views.towechat'),
+[Sun May 08 00:57:26.209426 2016] [:error] [pid 3780] 
+[Sun May 08 00:57:26.209507 2016] [:error] [pid 3780] /home/aliwechat/aliwechat/urls.py:24: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got wechat.views.login). Pass the callable instead.
+[Sun May 08 00:57:26.209515 2016] [:error] [pid 3780]   url(r'^login/', 'wechat.views.login'),
+[Sun May 08 00:57:26.209518 2016] [:error] [pid 3780] 
+[Sun May 08 00:57:26.209594 2016] [:error] [pid 3780] /home/aliwechat/aliwechat/urls.py:25: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got wechat.views.getHistory). Pass the callable instead.
+[Sun May 08 00:57:26.209601 2016] [:error] [pid 3780]   url(r'^history/', 'wechat.views.getHistory'),
+[Sun May 08 00:57:26.209604 2016] [:error] [pid 3780] 
+[Sun May 08 00:57:26.209680 2016] [:error] [pid 3780] /home/aliwechat/aliwechat/urls.py:26: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got wechat.views.create). Pass the callable instead.
+[Sun May 08 00:57:26.209688 2016] [:error] [pid 3780]   url(r'^create/', 'wechat.views.create')
+[Sun May 08 00:57:26.209691 2016] [:error] [pid 3780] 
+[Sun May 08 00:57:26.247890 2016] [:error] [pid 3780] can not import colorizing_stream_handler, using logging.StreamHandler()
+[Sun May 08 01:08:14.761005 2016] [:error] [pid 3781] /home/aliwechat/aliwechat/urls.py:21: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got wechat.views.wechat_handle). Pass the callable instead.
+[Sun May 08 01:08:14.761047 2016] [:error] [pid 3781]   url(r'^wechat/$', 'wechat.views.wechat_handle'),
+[Sun May 08 01:08:14.761051 2016] [:error] [pid 3781] 
+[Sun May 08 01:08:14.761149 2016] [:error] [pid 3781] /home/aliwechat/aliwechat/urls.py:22: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got wechat.views.index). Pass the callable instead.
+[Sun May 08 01:08:14.761157 2016] [:error] [pid 3781]   url(r'^$', 'wechat.views.index'),
+[Sun May 08 01:08:14.761161 2016] [:error] [pid 3781] 
+[Sun May 08 01:08:14.761244 2016] [:error] [pid 3781] /home/aliwechat/aliwechat/urls.py:23: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got wechat.views.towechat). Pass the callable instead.
+[Sun May 08 01:08:14.761252 2016] [:error] [pid 3781]   url(r'^towechat/$', 'wechat.views.towechat'),
+[Sun May 08 01:08:14.761255 2016] [:error] [pid 3781] 
+[Sun May 08 01:08:14.761383 2016] [:error] [pid 3781] /home/aliwechat/aliwechat/urls.py:24: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got wechat.views.login). Pass the callable instead.
+[Sun May 08 01:08:14.761394 2016] [:error] [pid 3781]   url(r'^login/', 'wechat.views.login'),
+[Sun May 08 01:08:14.761399 2016] [:error] [pid 3781] 
+[Sun May 08 01:08:14.761519 2016] [:error] [pid 3781] /home/aliwechat/aliwechat/urls.py:25: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got wechat.views.getHistory). Pass the callable instead.
+[Sun May 08 01:08:14.761529 2016] [:error] [pid 3781]   url(r'^history/', 'wechat.views.getHistory'),
+[Sun May 08 01:08:14.761534 2016] [:error] [pid 3781] 
+[Sun May 08 01:08:14.761653 2016] [:error] [pid 3781] /home/aliwechat/aliwechat/urls.py:26: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got wechat.views.create). Pass the callable instead.
+[Sun May 08 01:08:14.761662 2016] [:error] [pid 3781]   url(r'^create/', 'wechat.views.create')
+[Sun May 08 01:08:14.761667 2016] [:error] [pid 3781] 
+[Sun May 08 01:08:14.798692 2016] [:error] [pid 3781] can not import colorizing_stream_handler, using logging.StreamHandler()
+[Sun May 08 01:08:19.809045 2016] [:error] [pid 3782] /home/aliwechat/aliwechat/urls.py:21: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got wechat.views.wechat_handle). Pass the callable instead.
+[Sun May 08 01:08:19.809088 2016] [:error] [pid 3782]   url(r'^wechat/$', 'wechat.views.wechat_handle'),
+[Sun May 08 01:08:19.809092 2016] [:error] [pid 3782] 
+[Sun May 08 01:08:19.809191 2016] [:error] [pid 3782] /home/aliwechat/aliwechat/urls.py:22: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got wechat.views.index). Pass the callable instead.
+[Sun May 08 01:08:19.809199 2016] [:error] [pid 3782]   url(r'^$', 'wechat.views.index'),
+[Sun May 08 01:08:19.809202 2016] [:error] [pid 3782] 
+[Sun May 08 01:08:19.809292 2016] [:error] [pid 3782] /home/aliwechat/aliwechat/urls.py:23: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got wechat.views.towechat). Pass the callable instead.
+[Sun May 08 01:08:19.809300 2016] [:error] [pid 3782]   url(r'^towechat/$', 'wechat.views.towechat'),
+[Sun May 08 01:08:19.809303 2016] [:error] [pid 3782] 
+[Sun May 08 01:08:19.809386 2016] [:error] [pid 3782] /home/aliwechat/aliwechat/urls.py:24: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got wechat.views.login). Pass the callable instead.
+[Sun May 08 01:08:19.809393 2016] [:error] [pid 3782]   url(r'^login/', 'wechat.views.login'),
+[Sun May 08 01:08:19.809396 2016] [:error] [pid 3782] 
+[Sun May 08 01:08:19.809474 2016] [:error] [pid 3782] /home/aliwechat/aliwechat/urls.py:25: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got wechat.views.getHistory). Pass the callable instead.
+[Sun May 08 01:08:19.809481 2016] [:error] [pid 3782]   url(r'^history/', 'wechat.views.getHistory'),
+[Sun May 08 01:08:19.809485 2016] [:error] [pid 3782] 
+[Sun May 08 01:08:19.809560 2016] [:error] [pid 3782] /home/aliwechat/aliwechat/urls.py:26: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got wechat.views.create). Pass the callable instead.
+[Sun May 08 01:08:19.809568 2016] [:error] [pid 3782]   url(r'^create/', 'wechat.views.create')
+[Sun May 08 01:08:19.809570 2016] [:error] [pid 3782] 
+[Sun May 08 01:08:19.846021 2016] [:error] [pid 3782] can not import colorizing_stream_handler, using logging.StreamHandler()
